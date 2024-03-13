@@ -1,5 +1,5 @@
 [workspace]
-members = ["pure"]
+members = ["pure", "capi"]
 
 [package]
 name = "jemalloc_pprof"
@@ -30,6 +30,7 @@ tracing = "0.1.37"
 tokio = { version = "1.32.0", features = ["time", "sync"] }
 paste = "1.0.11"
 num = "0.4.0"
+errno = "0.3.8"
 
 [dependencies]
 pure = { path = "./pure" }
